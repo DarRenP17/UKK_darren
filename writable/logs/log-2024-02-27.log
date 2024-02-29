@@ -1,0 +1,103 @@
+CRITICAL - 2024-02-27 20:03:25 --> Invalid file: pages/login.php
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Home.php(9): view('pages/login')
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#8 {main}
+CRITICAL - 2024-02-27 20:33:55 --> Call to undefined method App\Controllers\Home::checkAuth()
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#5 {main}
+ERROR - 2024-02-27 20:34:52 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2024-02-27 20:34:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Models\M_model.php(45): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Home.php(43): App\Models\M_model->getRowArray('user', Array)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#9 {main}
+ERROR - 2024-02-27 20:35:15 --> Table 'perpustakaandigital.pegawai' doesn't exist
+CRITICAL - 2024-02-27 20:35:15 --> Call to a member function getRowArray() on bool
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Home.php(46): App\Models\M_model->getRowArray('pegawai', Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#6 {main}
+ERROR - 2024-02-27 20:38:15 --> Table 'perpustakaandigital.playground' doesn't exist
+CRITICAL - 2024-02-27 20:38:15 --> Call to a member function getResult() on bool
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Home.php(85): App\Models\M_model->dashboard1('playground', 'permainan', 'playground.id_p...', 'jam_mulai')
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#6 {main}
+CRITICAL - 2024-02-27 20:42:29 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Home.php on line 97
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Home.php(97): view('pages/dashboard', NULL)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#6 {main}
+CRITICAL - 2024-02-27 21:07:23 --> You must set the database table to be used with your query.
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Pengawai.php(27): CodeIgniter\Model->__call('getWhere', Array)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Pengawai->index()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengawai))
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#8 {main}
+ERROR - 2024-02-27 21:37:06 --> Column 'namaLengkap' cannot be null
+ERROR - 2024-02-27 21:37:06 --> Column 'log_idUser' cannot be null
+ERROR - 2024-02-27 21:50:46 --> Column 'log_idUser' cannot be null
+ERROR - 2024-02-27 21:50:58 --> Column 'log_idUser' cannot be null
+ERROR - 2024-02-27 22:01:11 --> Column 'log_idUser' cannot be null
+ERROR - 2024-02-27 22:01:13 --> Column 'log_idUser' cannot be null
+CRITICAL - 2024-02-27 22:16:16 --> Invalid file: layout/menu.php
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('layout/menu', Array, true)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Profile.php(38): view('layout/menu')
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Profile->index()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#8 {main}
+CRITICAL - 2024-02-27 22:16:55 --> Invalid file: profile.php
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Profile.php(37): view('profile', Array)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Profile->index()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#8 {main}
+CRITICAL - 2024-02-27 22:39:17 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\PC 21\\...')
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Kategori.php(26): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Kategori->index()
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#9 {main}

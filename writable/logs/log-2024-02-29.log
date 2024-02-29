@@ -1,0 +1,33 @@
+ERROR - 2024-02-29 09:18:30 --> Unknown column 'bukuID' in 'field list'
+ERROR - 2024-02-29 09:19:07 --> Column 'bukuID' cannot be null
+CRITICAL - 2024-02-29 09:20:00 --> Too few arguments to function App\Models\M_model::super_w(), 5 passed in C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Peminjaman.php on line 32 and exactly 6 expected
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Peminjaman.php(32): App\Models\M_model->super_w('peminjaman', 'buku', 'user', 'peminjaman.buku...', 'peminjaman.user...')
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Peminjaman->index()
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#6 {main}
+ERROR - 2024-02-29 18:14:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-02-29 18:14:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\PerpustakaanGame\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\PerpustakaanGame\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\PerpustakaanGame\app\Models\M_model.php(109): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\PerpustakaanGame\app\Controllers\Home.php(87): App\Models\M_model->getRowArray('user', Array)
+#4 C:\PerpustakaanGame\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\PerpustakaanGame\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\PerpustakaanGame\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\PerpustakaanGame\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\PerpustakaanGame\system\Commands\Server\rewrite.php(43): require_once('C:\\Perpustakaan...')
+#9 {main}
+CRITICAL - 2024-02-29 22:51:07 --> Invalid file: pages/profile.php
+#0 C:\Users\HP15\Downloads\PerpustakaanGame\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/profile.p...')
+#1 C:\Users\HP15\Downloads\PerpustakaanGame\system\Common.php(1089): CodeIgniter\View\View->render('pages/profile', Array, true)
+#2 C:\Users\HP15\Downloads\PerpustakaanGame\app\Controllers\Profile.php(34): view('pages/profile', Array)
+#3 C:\Users\HP15\Downloads\PerpustakaanGame\system\CodeIgniter.php(832): App\Controllers\Profile->index()
+#4 C:\Users\HP15\Downloads\PerpustakaanGame\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#5 C:\Users\HP15\Downloads\PerpustakaanGame\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\HP15\Downloads\PerpustakaanGame\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\HP15\Downloads\PerpustakaanGame\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\HP15\\D...')
+#8 {main}

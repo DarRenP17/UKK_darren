@@ -1,0 +1,438 @@
+ERROR - 2024-02-28 00:27:39 --> Table 'perpustakaandigital.kategori' doesn't exist
+ERROR - 2024-02-28 00:29:43 --> Table 'perpustakaandigital.kategori' doesn't exist
+CRITICAL - 2024-02-28 00:35:48 --> Too few arguments to function App\Controllers\Kategori::edit(), 0 passed in C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Kategori->edit()
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#5 {main}
+CRITICAL - 2024-02-28 00:37:07 --> Too few arguments to function App\Controllers\Kategori::edit(), 0 passed in C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Kategori->edit()
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#5 {main}
+CRITICAL - 2024-02-28 00:37:29 --> Too few arguments to function App\Controllers\Kategori::edit(), 0 passed in C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Kategori->edit()
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#5 {main}
+CRITICAL - 2024-02-28 00:54:48 --> Invalid argument supplied for foreach()
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Views\buku\input.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\PC 21\\...', 41, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(210): include('C:\\Users\\PC 21\\...')
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/input', Array, true)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(39): view('buku/input')
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->input()
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#10 {main}
+CRITICAL - 2024-02-28 00:58:49 --> Invalid argument supplied for foreach()
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Views\buku\input.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\PC 21\\...', 41, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(210): include('C:\\Users\\PC 21\\...')
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/input', Array, true)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(39): view('buku/input')
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->input()
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#10 {main}
+CRITICAL - 2024-02-28 01:16:18 --> join(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'join(): Invalid...', 'C:\\Users\\PC 21\\...', 22, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Models\M_model.php(22): join('kategoribuku', 'kategoribuku_re...')
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(28): App\Models\M_model->relasiKategori()
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->index()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#8 {main}
+CRITICAL - 2024-02-28 01:23:08 --> A non-numeric value encountered
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Views\buku\buku.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\PC 21\\...', 41, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(210): include('C:\\Users\\PC 21\\...')
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/buku', Array, true)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(29): view('buku/buku', Array)
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->index()
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#10 {main}
+CRITICAL - 2024-02-28 01:23:22 --> syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/buku', Array, true)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(29): view('buku/buku', Array)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->index()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#8 {main}
+CRITICAL - 2024-02-28 01:29:33 --> in_array() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\Users\\PC 21\\...', 42, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Views\buku\edit.php(42): in_array(NULL, NULL)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(210): include('C:\\Users\\PC 21\\...')
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/edit', Array, true)
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(103): view('buku/edit', Array)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->edit('1')
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#11 {main}
+CRITICAL - 2024-02-28 01:30:28 --> in_array() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\Users\\PC 21\\...', 42, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Views\buku\edit.php(42): in_array('2', NULL)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(210): include('C:\\Users\\PC 21\\...')
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/edit', Array, true)
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(104): view('buku/edit', Array)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->edit('1')
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#11 {main}
+CRITICAL - 2024-02-28 01:30:36 --> in_array() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\Users\\PC 21\\...', 42, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Views\buku\edit.php(42): in_array('2', NULL)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(210): include('C:\\Users\\PC 21\\...')
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/edit', Array, true)
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(104): view('buku/edit', Array)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->edit('1')
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#11 {main}
+CRITICAL - 2024-02-28 01:31:04 --> in_array() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\Users\\PC 21\\...', 42, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Views\buku\edit.php(42): in_array('2', NULL)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(210): include('C:\\Users\\PC 21\\...')
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/edit', Array, true)
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(104): view('buku/edit', Array)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->edit('1')
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#11 {main}
+CRITICAL - 2024-02-28 01:31:45 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\Users\\PC 21\\...', 41, Array)
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Views\buku\edit.php(41): array_column(NULL, 'kategoriID')
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(210): include('C:\\Users\\PC 21\\...')
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('buku/edit', Array, true)
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Buku.php(104): view('buku/edit', Array)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Buku->edit('1')
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#11 {main}
+CRITICAL - 2024-02-28 11:04:53 --> Invalid file: peminjaman/peminjaman.php
+#0 C:\UKK_OctariantoLikaNg\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/pemi...')
+#1 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/pemi...', Array, true)
+#2 C:\UKK_OctariantoLikaNg\app\Controllers\Peminjaman.php(31): view('peminjaman/pemi...', Array)
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Peminjaman->index()
+#4 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#8 {main}
+CRITICAL - 2024-02-28 11:05:24 --> Undefined variable $data
+#0 C:\UKK_OctariantoLikaNg\app\Views\peminjaman\peminjaman.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\UKK_Octarian...', 31)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/pemi...', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\Peminjaman.php(31): view('peminjaman/pemi...', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Peminjaman->index()
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+CRITICAL - 2024-02-28 11:12:48 --> You must set the database table to be used with your query.
+#0 C:\UKK_OctariantoLikaNg\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\UKK_OctariantoLikaNg\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(176): CodeIgniter\Model->__call('super_w', Array)
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#4 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#8 {main}
+CRITICAL - 2024-02-28 11:26:25 --> You must set the database table to be used with your query.
+#0 C:\UKK_OctariantoLikaNg\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\UKK_OctariantoLikaNg\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(176): CodeIgniter\Model->__call('super_w', Array)
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#4 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#8 {main}
+ERROR - 2024-02-28 11:27:04 --> Table 'perpustakaandigital.member' doesn't exist
+CRITICAL - 2024-02-28 11:27:04 --> Call to a member function getResult() on bool
+#0 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(176): App\Models\M_model->super_w('ulasanbuku', 'buku', 'member', 'ulasan.buku_id=...', 'ulasan.user_id=...', Array)
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#6 {main}
+ERROR - 2024-02-28 11:27:33 --> Table 'perpustakaandigital.member' doesn't exist
+CRITICAL - 2024-02-28 11:27:33 --> Call to a member function getResult() on bool
+#0 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(176): App\Models\M_model->super_w('ulasanbuku', 'buku', 'member', 'ulasan.buku_id=...', 'ulasan.user_id=...', Array)
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#6 {main}
+ERROR - 2024-02-28 11:31:10 --> Unknown column 'ulasan.buku_id' in 'where clause'
+CRITICAL - 2024-02-28 11:31:10 --> Call to a member function getResult() on bool
+#0 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(176): App\Models\M_model->super_w('ulasanbuku', 'buku', 'user', 'ulasan.bukuID=b...', 'ulasan.user_id=...', Array)
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#6 {main}
+ERROR - 2024-02-28 11:31:50 --> Unknown column 'ulasanbuku.buku_id' in 'where clause'
+CRITICAL - 2024-02-28 11:31:50 --> Call to a member function getResult() on bool
+#0 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(176): App\Models\M_model->super_w('ulasanbuku', 'buku', 'user', 'ulasanbuku.buku...', 'ulasanbuku.user...', Array)
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#6 {main}
+ERROR - 2024-02-28 11:32:17 --> Unknown column 'ulasanbuku.user_id' in 'on clause'
+CRITICAL - 2024-02-28 11:32:17 --> Call to a member function getResult() on bool
+#0 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(176): App\Models\M_model->super_w('ulasanbuku', 'buku', 'user', 'ulasanbuku.buku...', 'ulasanbuku.user...', Array)
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#6 {main}
+ERROR - 2024-02-28 11:33:07 --> Unknown column 'user.user_id' in 'on clause'
+CRITICAL - 2024-02-28 11:33:07 --> Call to a member function getResult() on bool
+#0 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(176): App\Models\M_model->super_w('ulasanbuku', 'buku', 'user', 'ulasanbuku.buku...', 'ulasanbuku.user...', Array)
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#6 {main}
+CRITICAL - 2024-02-28 11:33:59 --> Invalid file: layout/head.php
+#0 C:\UKK_OctariantoLikaNg\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/head.php')
+#1 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('layout/head', Array, true)
+#2 C:\UKK_OctariantoLikaNg\app\Views\buku\ulasan.php(1): view('layout/head')
+#3 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#4 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('buku/ulasan', Array, true)
+#6 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(182): view('buku/ulasan', Array)
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#8 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#9 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#12 {main}
+CRITICAL - 2024-02-28 12:07:30 --> Undefined property: stdClass::$id_buku
+#0 C:\UKK_OctariantoLikaNg\app\Views\buku\ulasan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\UKK_Octarian...', 51)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('buku/ulasan', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(182): view('buku/ulasan', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+CRITICAL - 2024-02-28 12:07:48 --> Undefined property: stdClass::$bukuid
+#0 C:\UKK_OctariantoLikaNg\app\Views\buku\ulasan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\UKK_Octarian...', 51)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('buku/ulasan', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(182): view('buku/ulasan', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+ERROR - 2024-02-28 12:09:02 --> Column 'userID' cannot be null
+CRITICAL - 2024-02-28 12:10:06 --> Undefined property: stdClass::$nama_member
+#0 C:\UKK_OctariantoLikaNg\app\Views\buku\ulasan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\UKK_Octarian...', 37)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('buku/ulasan', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(182): view('buku/ulasan', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->ulasan('1')
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+CRITICAL - 2024-02-28 12:20:33 --> Undefined property: stdClass::$judul
+#0 C:\UKK_OctariantoLikaNg\app\Views\koleksi\koleksi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\UKK_Octarian...', 34)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('koleksi/koleksi', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\koleksi.php(28): view('koleksi/koleksi', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+CRITICAL - 2024-02-28 12:30:11 --> Undefined variable $result
+#0 C:\UKK_OctariantoLikaNg\app\Models\M_model.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\UKK_Octarian...', 38)
+#1 C:\UKK_OctariantoLikaNg\app\Controllers\Buku.php(41): App\Models\M_model->koleksi(Array)
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Buku->index()
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#4 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#7 {main}
+CRITICAL - 2024-02-28 12:39:35 --> Undefined property: stdClass::$judul
+#0 C:\UKK_OctariantoLikaNg\app\Views\koleksi\koleksi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\UKK_Octarian...', 34)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('koleksi/koleksi', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\koleksi.php(28): view('koleksi/koleksi', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+CRITICAL - 2024-02-28 12:48:11 --> Undefined variable $data
+#0 C:\UKK_OctariantoLikaNg\app\Controllers\koleksi.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\UKK_Octarian...', 36)
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#6 {main}
+CRITICAL - 2024-02-28 12:48:48 --> Unsupported operand types: string + string
+#0 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#5 {main}
+CRITICAL - 2024-02-28 12:52:45 --> [] operator not supported for strings
+#0 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#5 {main}
+CRITICAL - 2024-02-28 12:53:07 --> [] operator not supported for strings
+#0 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#5 {main}
+CRITICAL - 2024-02-28 12:53:36 --> Undefined property: stdClass::$judul
+#0 C:\UKK_OctariantoLikaNg\app\Views\koleksi\koleksi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\UKK_Octarian...', 34)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('koleksi/koleksi', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\koleksi.php(36): view('koleksi/koleksi', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+CRITICAL - 2024-02-28 13:12:02 --> Undefined variable $koleksi
+#0 C:\UKK_OctariantoLikaNg\app\Views\koleksi\koleksi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\UKK_Octarian...', 48)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('koleksi/koleksi', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\koleksi.php(37): view('koleksi/koleksi', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+CRITICAL - 2024-02-28 13:12:04 --> Undefined variable $koleksi
+#0 C:\UKK_OctariantoLikaNg\app\Views\koleksi\koleksi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\UKK_Octarian...', 48)
+#1 C:\UKK_OctariantoLikaNg\system\View\View.php(210): include('C:\\UKK_Octarian...')
+#2 C:\UKK_OctariantoLikaNg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\UKK_OctariantoLikaNg\system\Common.php(1089): CodeIgniter\View\View->render('koleksi/koleksi', Array, true)
+#4 C:\UKK_OctariantoLikaNg\app\Controllers\koleksi.php(37): view('koleksi/koleksi', Array)
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#6 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#7 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#10 {main}
+CRITICAL - 2024-02-28 13:13:56 --> Undefined variable $data
+#0 C:\UKK_OctariantoLikaNg\app\Controllers\koleksi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\UKK_Octarian...', 37)
+#1 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Koleksi->index()
+#2 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koleksi))
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#6 {main}
+CRITICAL - 2024-02-28 13:36:28 --> You must set the database table to be used with your query.
+#0 C:\UKK_OctariantoLikaNg\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\UKK_OctariantoLikaNg\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\UKK_OctariantoLikaNg\app\Controllers\Laporan.php(54): CodeIgniter\Model->__call('filterbuku', Array)
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Laporan->print()
+#4 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#8 {main}
+CRITICAL - 2024-02-28 13:38:56 --> You must set the database table to be used with your query.
+#0 C:\UKK_OctariantoLikaNg\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\UKK_OctariantoLikaNg\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\UKK_OctariantoLikaNg\app\Controllers\Laporan.php(54): CodeIgniter\Model->__call('filterbuku', Array)
+#3 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(832): App\Controllers\Laporan->print()
+#4 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#5 C:\UKK_OctariantoLikaNg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\UKK_OctariantoLikaNg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\UKK_OctariantoLikaNg\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK_Octarian...')
+#8 {main}
+CRITICAL - 2024-02-28 19:21:19 --> syntax error, unexpected end of file
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/inpu...', Array, true)
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\app\Controllers\Peminjaman.php(48): view('peminjaman/inpu...', Array)
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(832): App\Controllers\Peminjaman->input()
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#8 {main}
+ERROR - 2024-02-28 19:48:30 --> Unknown column 'userID' in 'field list'
+ERROR - 2024-02-28 19:49:04 --> Unknown column 'bukuID_peminjaman' in 'field list'
+ERROR - 2024-02-28 19:49:22 --> Unknown column 'bukuID_peminjaman' in 'field list'
+CRITICAL - 2024-02-28 20:01:43 --> syntax error, unexpected ')'
+#0 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('peminjaman/inpu...')
+#1 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('peminjaman/inpu...')
+#2 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC 21\Desktop\UKK_OctariantoLikaNg\coding\Aplikasi Perpustakaan Digital\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC 21\\...')
+#6 {main}
