@@ -103,9 +103,9 @@ class Kategori extends BaseController
         $model=new Slepia();
         $where2=array('kategoriID'=>$id);
 
-        $model->hapus('kategori',$where2);
+        $model->hapus('kategoribuku',$where2);
 
-        return redirect()->to('/pengawai');
+        return redirect()->to('/kategori');
 
         
     }

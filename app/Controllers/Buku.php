@@ -10,7 +10,7 @@ class Buku extends BaseController
     {
         $id_user = session()->get('id');
         $level = session()->get('level');
-        if ($id_user != null && $level == 'admin') {
+        if ($id_user != null && $level != 'peminjam') {
             return true;
         } else {
             return false;
@@ -158,7 +158,7 @@ class Buku extends BaseController
 
     public function ulasan($id)
 {
-    if (!$this->checkAuth()) {
+    if (!$this->biasa()) {
         return redirect()->to(base_url('/home/dashboard'));
     }
 
@@ -176,6 +176,9 @@ class Buku extends BaseController
 
 public function tambah_ulasan($idbuku)
 {
+    if (!$this->biasa()) {
+        return redirect()->to(base_url('/home/dashboard'));
+    }
     $model=new Slepia();
     $chat=$this->request->getPost('chat-message');
     $rating=$this->request->getPost('rating');

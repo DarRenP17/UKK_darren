@@ -31,11 +31,11 @@ class Koleksi extends BaseController
         }
         $data['data']= [];
         $data['kategori']=[];
-        if (!empty($cek)) {
+        if (!empty($koleksi)) {
         $data['data']= $model->koleksi2($idbuku);
         $data['kategori']= $model->relasiKategori();
         }
-        // print_r($data);
+        // print_r($idbuku);
         echo view('koleksi/koleksi',$data);
     }
 
@@ -85,8 +85,7 @@ class Koleksi extends BaseController
     }
 
         $model=new Slepia();
-        $where2=array('bukuID'=>$id,
-                     'userID'=>session()->get('id'));
+        $where2=array('bukuID'=>$id, 'userID'=>session()->get('id'));
 
         $model->hapus('koleksipribadi',$where2);
 

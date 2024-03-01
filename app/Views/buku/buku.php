@@ -58,7 +58,7 @@
 										Masukan Ke Koleksi
 									</a>
 									<?php }else{ ?>
-										<a href="<?= base_url('/koleksi/hapusKoleksi/'.$koleksi[$dataa->bukuID]->koleksiID) ?>" class="btn btn-secondary">
+										<a href="<?= base_url('/koleksi/hapusKoleksi/'.$dataa->bukuID) ?>" class="btn btn-secondary">
 										hapus dari Koleksi
 									</a>
 									<?php } } ?>

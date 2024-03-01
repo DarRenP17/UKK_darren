@@ -47,7 +47,7 @@
                     <?php }?>
                 </div><br>
             </div>
-            <?php  if(session()->get('level')== 3){ ?>
+            <?php  if(session()->get('level')== "peminjam"){ ?>
                 <h3>Give Comments</h3>
                 <form id="chat-form" method="POST" action="<?= base_url("/buku/tambah_ulasan/".$buku->bukuID) ?>">
                     <div class="form-group">

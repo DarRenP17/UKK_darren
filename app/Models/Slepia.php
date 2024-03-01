@@ -27,6 +27,18 @@ class Slepia extends model
 		return $result;
 	}
 
+	public function relasiKategori()
+	{
+		$data = $this->db->table('kategoribuku_relasi')
+						->join('kategoribuku', 'kategoribuku_relasi.kategoriID=kategoribuku.kategoriID')
+						->get()
+						->getResult();
+		foreach($data as $dataa){
+			$result[$dataa->bukuID][]= $dataa;
+		}
+		return $result;
+	}
+
 	public function koleksi($where)
 	{
 		$data = $this->db->table('koleksipribadi')
@@ -41,7 +53,7 @@ class Slepia extends model
 
 	public function koleksi2($where)
 	{
-		return $this->db->table('koleksipribadi')
+		return $this->db->table('buku')
 		->whereIn('bukuID', $where)
 						->get()
 						->getResult();
